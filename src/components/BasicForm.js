@@ -34,7 +34,7 @@ const BasicForm = (props) => {
     valueChangeHandler: emailChangeHandler,
     inputBlurHandler: emailBlurHandler,
     reset: resetEmail,
-} = useInput(isEmail);
+  } = useInput(isEmail);
 
   let formIsValid = false;
 
